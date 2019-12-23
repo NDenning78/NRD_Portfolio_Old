@@ -1,0 +1,384 @@
+/*  About Python (Optional) */
+/*  Neil Denning */
+/* I know after doing this it's too much css
+    But, I couldn't get the manipulation I wanted without
+    all of this.
+    
+    I will continue to look for ways to write simple and with less selectors */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* outline: 2px red solid; */
+}
+
+#wrapper{
+    min-height: 200px;
+    width: 970px;
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(32, 71, 107);
+}
+
+#header{
+    min-height: 100px;
+    width: 970px;
+    display: block;
+}
+
+#left_header{
+    display: inline-block;
+    min-height: 100px;
+    width: 450px;
+    vertical-align: top;
+}
+
+#right_header{
+    display: inline-block;
+    min-height: 100px;
+    width: 450px;
+    margin-left: 60px;
+}
+
+#primary_content_container{
+    min-height: 200px;
+    width: 970px;
+    display: inline-block;
+}
+
+.search_go_container{
+    display: block;
+    min-height: 50px;
+    width: 300px;
+    background-color: rgb(68, 68, 68);
+    margin-top: 10px;
+    margin-left: 140px;
+    box-shadow: 2px 2px 2px 0px black;
+    border-radius: 10px;
+}
+
+#search_box{
+    display: inline-block;
+    min-height: 25px;
+    width: 160px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-left: 20px;
+    border: 2px gray solid;
+
+}
+
+#search{
+    display: inline-block;
+    vertical-align: middle; 
+    margin-top: 7.5px;   
+}
+
+.go{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-left: 0px;
+}
+
+.go_button{
+    display: inline-block;
+    min-height: 30px;
+    width: 30px;
+    background-color: rgb(32, 71, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-left: 5px;
+    border: 2px gray solid;
+    border-radius: 5px;
+
+}
+
+img{
+    display: inline-block;
+    height: 100px;
+    width: 360px;
+    max-height: 100px;
+    max-width: 360px;
+    margin-left: 20px;
+
+}
+
+.text_size{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+.orange{
+    color: rgb(191,170,16);
+}
+
+.nav_menu_container{
+    min-height: 60px;
+    width: 830px;
+    display: block;
+    background-color: rgb(78,125,172);
+    margin-left: 100px;
+    background-image: linear-gradient(rgb(78,125,172),rgb(91, 131, 170),rgb(78,125,172));
+    box-shadow: 2px 2px 2px 0px black;
+    border-radius: 10px;
+}
+
+/* .nav_ul{
+    vertical-align: middle;
+    display: inline-block;
+} */
+
+.nav_li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(255,255,255);
+    margin-top: 20px;
+    margin-left: 50px;;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.nav_li_a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    text-shadow: 1px 1px 1px black;
+}
+
+.img_header_left{
+    display: inline-block;
+    height: 80px;
+    width: 140px;
+    max-height: 80px;
+    max-width: 140px;  
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+#list_links_mid_left_box{    
+    display: inline-block;
+    min-height: 200px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 140px; 
+
+}
+
+.list_links_mid_left{ 
+    min-height: 200px;
+    width: 180px;
+    display: inline-block;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    list-style-type: disc;    
+    list-style-position: inside; 
+}
+
+.docs{
+    padding: 8px;
+}
+
+.av_talks{
+    padding: 8px;
+}
+
+.beginners_guide{
+    padding: 8px;
+}
+
+.developers_guide{
+    padding: 8px;
+}
+
+.pep_index{
+    padding: 8px;
+}
+
+.python_books{
+    padding: 8px;
+}
+
+.faq{
+    padding: 8px;
+}
+
+#p_main_top_right_box{
+    display: inline-block;
+    min-height: 60px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+
+.p_main_top_right{
+    display: inline-block;
+    min-height: 60px;
+    width: 605px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.ul_main_left_a{
+    color: white;
+   
+}
+
+.ul_li_main_right{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(191,170,16);
+    list-style-type: none;
+}
+
+.beautiful{
+    padding: 7px;
+    font-style: italic;
+}
+
+.explicit{
+    padding: 7px;
+    font-style: italic;
+}
+
+.simple{
+    padding: 7px;
+    font-style: italic;
+}
+
+.complex{
+    padding: 7px;
+    font-style: italic;
+}
+
+.readability{
+    padding: 7px;
+    font-style: italic;
+}
+
+.zen{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(204, 204, 204);
+    list-style-type: none;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#secondary_content_container{
+    min-height: 200px;
+    width: 970px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+.secondary_content_ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(117, 159, 205);
+    text-align: center;
+    width: 220px;
+    margin-left: 20px; 
+    list-style: square;   
+}
+
+.getting_started_box{
+    display: inline-block;
+    min-height: 180px;
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    border-top: 3px solid;
+    border-top-color: rgb(117, 159, 205);
+}
+
+.applications_box{
+    display: inline-block;
+    min-height: 180px;
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    border-top: 3px solid;
+    border-top-color: rgb(117, 159, 205);
+}
+
+.p_secondary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;padding: 5px;
+}
+
+.li_space{
+    padding: 3px;
+}
+
+.p_small{
+    font-size: 10px;
+    color: rgb(117, 159, 205);
+}
+
+#footer{
+    min-height: 100px;
+    width: 970px;
+    background-color: rgb(32, 71, 107);
+    background-image: linear-gradient( rgb(32, 71, 107),rgb(32, 71, 107),rgb(44, 75, 104));
+}
+
+.ul_footer{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 180px;
+}
+
+.ul_li_footer{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(117, 159, 205);
+    vertical-align: middle;
+    padding-left: 60px;
+    margin-top: 40px;
+}
+
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: rgb(117, 159, 205);
+    vertical-align: middle;
+    margin-left: 440px;
+    margin-top: 20px;
+}

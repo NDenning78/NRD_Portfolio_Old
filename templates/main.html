@@ -1,0 +1,144 @@
+<!-- My Portfolio 
+MAIN HTML Page-->
+<!-- Neil Denning -->
+
+<!-- R&eacute;sum&eacute;-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="description" content="My Portfoilio IdeaOne (nrd)"> -->
+    <meta name="description" content="Neil Denning's Portfolio">
+    <link rel="stylesheet" href="/static/css/main_stylesheet.css">
+
+    <title>Neil Denning's Portfolio</title>
+
+    <!-- There should always be 2 script tags..1 to link. 2 to state JS and to get document ready.-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='static/js/my_portfolio.js')}}"></script> -->
+    <!-- This is the script tag with jQuery link!!-->
+    <!-- // The JS and jQuery seem to live inside the document function.-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            alert("Welcome To Neil Denning's Portfolio!!")
+            
+            // $('nav').click(function(){alert("You have clicked a button!")});
+            
+            // $('a').click(function(){alert('you are now leaving this page')});
+
+            
+            // Effects methods toggle the visiblility property of the item
+        });        
+    </script>
+    
+
+</head>
+<body onload=display_ct();>
+    <div id="wrapper">
+        <header>
+            <h5 id='ct'></h5>
+            <h1>Neil Denning</h1>
+            <h2>Full Stack Developer</h2>
+        </header>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                   <button class="dropbtn">Home</button>  
+                    <div class="dropdown_content">
+                        <!-- these two should take user to specific page with project and code snippets -->
+                        <a href="/frontend_proj">Front-End</a>
+                        <a href="/backend_proj">Back-End</a>                        
+                    </div>       
+                </li> 
+                
+                <li class="dropdown">
+                    <button class="dropbtn">HTML5/CSS3</button>
+                    <div class="dropdown_content">
+                        <a href="/jayneDoe_proj">Jayne Doe R&eacute;sum&eacute;</a>
+                        <a href="/aboutPython_proj">About Python</a>                       
+                        <a href="/internet_proj">Internet</a>
+                        <a href="/modernize_proj">Modernize</a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">JavaScript Highlights</button>
+                    <div class="dropdown_content">
+                        <a href="My_Samples/Portfolio_JayneDoe/Portfolio_JayneDoe(html).html">Jayne Doe R&eacute;sum&eacute;</a>
+                        <a href="My_Samples/AboutPython/AboutPython(Optional_nrd).html">About Python</a>                       
+                        <a href="My_Samples/Internet(optional_nrd)/Internet(optional_nrd).html">Internet</a>
+                        <a href="My_Samples/YellowBeltExam(Modernize_nrd)/YellowBeltExam(Modernize_nrd).html">Yellow Belt Exam</a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">Python Highlights</button>
+                    <div class="dropdown_content">
+                        <a href="/dojo_survey">Dojo Survey</a>
+                        <a href="My_Samples/AboutPython/AboutPython(Optional_nrd).html">About Python</a>                       
+                        <a href="My_Samples/Internet(optional_nrd)/Internet(optional_nrd).html">Internet</a>
+                        <a href="My_Samples/YellowBeltExam(Modernize_nrd)/YellowBeltExam(Modernize_nrd).html">Yellow Belt Exam</a>
+                    </div>
+                </li>
+                
+            </ul>
+        </nav>
+        <main>
+            <div id="main_left">
+                <h3><a href="/frontend_proj">Front-End</a></h3>
+                
+                <ul class="ul_li_main_left">
+                    <!-- SPECIAL FEATURE -->
+                    <!-- make mouse change to image icon for language "on hover()". -->
+                    <li class="orange"><a href="/frontend_proj">HTML5</a></li>
+                    <li class="orange"><a href="/frontend_proj">CSS3</a></li>
+                    <li class="orange"><a href="/frontend_proj">JavaScript</a></li>
+                </ul>
+                
+            </div>
+            <div class="center_box">
+                <img class="img_Py" src="/static/img/myCodeSnippets/JS_maxMinAvg.png" alt="myCodeSnippet_img">
+                <p class="shortBio">Cool well written BIO goes here..My name is Neil Denning and I code now!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores perferendis velit nam molestias harum at voluptas animi itaque! Distinctio voluptates amet officia suscipit doloribus ipsam iusto quisquam? Reiciendis, delectus? </p>
+                   
+            </div>
+            <div id="main_right">
+                <h3><a href="https://www.google.com">Back-End</a></h3>  
+                     
+                <ul class="ul_li_main_right">
+                    <li class="blue"><a href="https://www.google.com">Python</a></li>
+                    <li class="blue"><a href="https://www.google.com">Flask</a></li>                   
+                    <li class="blue"><a href="https://www.google.com">MySQL</a></li>
+                </ul>
+                
+            </div>
+            <footer id="img_footer">
+                <img class="img_python" src="/static/img/Language_images/HTML.png" alt="HTML_img">
+                <img class="img_python" src="/static/img/Language_images/CSS.png" alt="CSS_img">
+                <img class="img_python" src="/static/img/Language_images/JavaScript.png" alt="JavaScript_img">
+                <img class="img_python" src="/static/img/Language_images/python.png" alt="Python_img">
+                <img class="img_python" src="/static/img/Language_images/github.png" alt="GitHub_img">
+                <img class="img_python" src="/static/img/Language_images/mysql.png" alt="MySQL_img">
+              
+            </footer>
+
+        </main>
+
+    </div>  
+    <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000; // Refresh rate in milli seconds
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('ct').innerHTML = x;
+        display_c();
+         }
+    </script>      
+</body>
+</html>
