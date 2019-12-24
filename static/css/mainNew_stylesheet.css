@@ -63,6 +63,54 @@ body{
     max-height: 1000px;
     border-radius: 5px;
 }
+.outerBox_bemp{
+    max-width: 1000px;
+    width: 1000px;
+    max-height: 3600px;
+    height: 3600px;
+    display: block;
+    margin: 20px auto;
+    /* outline: 1px red solid; */
+}
+.belg_prev{
+    width: 1000px;
+    height: 800px;
+    max-width: 1000px;
+    max-height: 800px;
+    border-radius: 5px;
+}
+.bemp_prev1{
+    width: 1000px;
+    height: 800px;
+    max-width: 1000px;
+    max-height: 800px;
+    border-radius: 5px;
+    margin: 0px 0px 20px 20px;
+}
+.bemp_prev2{
+    width: 900px;
+    height: 600px;
+    max-width: 900px;
+    max-height: 600px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 60px;
+}
+.bemp_prev3{
+    width: 900px;
+    height: 500px;
+    max-width: 900px;
+    max-height: 500px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 60px;
+}
+.bemp_prev4{
+    width: 900px;
+    height: 700px;
+    max-width: 900px;
+    max-height: 700px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 60px;
+}
 .returnHome{
     display: inline-block;
     vertical-align: top;

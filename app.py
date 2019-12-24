@@ -57,7 +57,9 @@ def dojo_tweet_code_preview():
 def dojo_tweet_main_preview():
         return render_template("dojo_tweet_main_preview.html")
 
-
+@app.route("/belt_exam_main_preview")
+def belt_exam_main_preview():
+        return render_template("belt_exam_main_preview.html")
 
 
 
