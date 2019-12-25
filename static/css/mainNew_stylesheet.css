@@ -269,6 +269,18 @@ img{
     border-radius: 5px;
     /* outline: 1px red solid; */
 }
+.img_prev_1d{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px 0px 0px;
+    width: 380px;
+    height: 380px;
+    max-width: 380px;
+    max-height: 380px;
+    border-radius: 5px;
+    /* outline: 1px red solid; */
+}
+
 
 footer{
     border: 2px solid rgb(255, 243, 223);

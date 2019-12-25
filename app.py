@@ -41,9 +41,17 @@ def jayneDoe_original():
 def aboutPython_proj():
     return render_template("aboutPython_proj.html")
 
+@app.route("/about_python_original")
+def about_python_original():
+        return render_template("aboutPython_original.html")
+
 @app.route("/internet_proj")
 def internet_proj():
     return render_template("internet_proj.html")
+
+@app.route("/internet_original")
+def internet_original():
+        return render_template("internet_original.html")
 
 @app.route("/modernize_proj")
 def modernize_proj():
@@ -60,6 +68,8 @@ def dojo_tweet_main_preview():
 @app.route("/belt_exam_main_preview")
 def belt_exam_main_preview():
         return render_template("belt_exam_main_preview.html")
+
+
 
 
 
