@@ -2,7 +2,7 @@
 # MySQL convert to SQL Alchemy for Flask/AWS "Static" Deployment.
 # Coder: Neil Denning
 # Git and Github are a painful learnning curve process! LOL!
-# I hate git and github!! no one explains it well!! 
+# I Love git and github!! no one explains it well, but I get it!!!! 
 from flask import Flask, render_template, redirect, request, session, flash
 
 from datetime import datetime
@@ -30,18 +30,18 @@ def backend_proj():
     return render_template("backend_proj.html")
 
 @app.route("/jaynedoe_proj")
-def jayneDoe_proj():
+def jaynedoe_proj():
     return render_template("jaynedoe_proj.html")
 
 @app.route("/jaynedoe_original")
-def jayneDoe_original():
+def jaynedoe_original():
     return render_template("jaynedoe_original.html")
 
 @app.route("/aboutpython_proj")
-def aboutPython_proj():
+def aboutpython_proj():
     return render_template("aboutpython_proj.html")
 
-@app.route("/about_python_original")
+@app.route("/aboutpython_original")
 def about_python_original():
         return render_template("aboutpython_original.html")
 
@@ -53,21 +53,18 @@ def internet_proj():
 def internet_original():
         return render_template("internet_original.html")
 
-@app.route("/modernize_proj")
-def modernize_proj():
-    return render_template("modernize_proj.html")
 
-@app.route("/dojo_tweet_code_preview")
-def dojo_tweet_code_preview():
-        return render_template("dojo_tweet_code_preview.html")
+@app.route("/dojo_survey_main_preview")
+def dojo_survey_main_preview():
+        return render_template("dojo_survey_main_preview.html")
 
 @app.route("/dojo_tweet_main_preview")
 def dojo_tweet_main_preview():
         return render_template("dojo_tweet_main_preview.html")
 
-@app.route("/belt_exam_main_preview")
-def belt_exam_main_preview():
-        return render_template("belt_exam_main_preview.html")
+@app.route("/quotes")
+def quotes():
+        return render_template("quotes.html")
 
 
 

@@ -10,7 +10,23 @@
 body{
     background-color: rgb(0,0,0);
 }
+.outerBox{
+    min-height: 900px;
+    width: 960px;
+    display: block;
+    margin: 20px auto;
+    /* outline: 1px red solid; */
+}
 
+.returnHome{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(140, 148, 208);
+    margin: 40px 0px 0px 100px;
+}
 #wrapper{
     min-height: 480px;
     width: 994px;
