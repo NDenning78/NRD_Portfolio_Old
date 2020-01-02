@@ -1,7 +1,7 @@
 # Project Title: NRD Portfolio "Static" Final
 # MySQL convert to SQL Alchemy for Flask/AWS "Static" Deployment.
 # Coder: Neil Denning
-
+# Git and Github are a painful learnning curve process! LOL!
 
 from flask import Flask, render_template, redirect, request, session, flash
 
