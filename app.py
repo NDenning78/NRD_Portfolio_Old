@@ -1,7 +1,7 @@
 # Project Title: NRD Portfolio "Static" Final
 # MySQL convert to SQL Alchemy for Flask/AWS "Static" Deployment.
 # Coder: Neil Denning
-
+# Git and Github are a painful learnning curve process! LOL!
 
 from flask import Flask, render_template, redirect, request, session, flash
 
@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home_page():
-        return render_template("mainNew.html")
+        return render_template("mainnew.html")
 
 @app.route("/frontend_proj")
 def frontend_proj():
@@ -31,19 +31,19 @@ def backend_proj():
 
 @app.route("/jaynedoe_proj")
 def jayneDoe_proj():
-    return render_template("jayneDoe_proj.html")
+    return render_template("jaynedoe_proj.html")
 
 @app.route("/jaynedoe_original")
 def jayneDoe_original():
-    return render_template("jayneDoe_original.html")
+    return render_template("jaynedoe_original.html")
 
 @app.route("/aboutpython_proj")
 def aboutPython_proj():
-    return render_template("aboutPython_proj.html")
+    return render_template("aboutpython_proj.html")
 
 @app.route("/about_python_original")
 def about_python_original():
-        return render_template("aboutPython_original.html")
+        return render_template("aboutpython_original.html")
 
 @app.route("/internet_proj")
 def internet_proj():
