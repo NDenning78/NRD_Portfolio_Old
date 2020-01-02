@@ -2,7 +2,7 @@
 # MySQL convert to SQL Alchemy for Flask/AWS "Static" Deployment.
 # Coder: Neil Denning
 # Git and Github are a painful learnning curve process! LOL!
-
+# I hate git and github!! no one explains it well!! 
 from flask import Flask, render_template, redirect, request, session, flash
 
 from datetime import datetime
