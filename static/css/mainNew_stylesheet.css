@@ -33,6 +33,16 @@ body{
     margin: 20px auto;
     /* outline: 1px red solid; */
 }
+/* dojo survey */
+.outerBox_dsmp{
+    max-width: 800px;
+    width: 800px;
+    max-height: 2000px;
+    height: 2000px;
+    display: block;
+    margin: 20px auto;
+    /* outline: 1px red solid; */
+}
 .dtmp_prev{
     width: 800px;
     height: 1000px;
@@ -57,53 +67,88 @@ body{
     /* outline: 1px red solid; */
 }
 .dtcp_prev{
-    width: 1000px;
-    height: 1000px;
-    max-width: 1000px;
-    max-height: 1000px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px 0px;
+    width: 800px;
+    height: 800px;
+    max-width: 800px;
+    max-height: 800px;
     border-radius: 5px;
 }
-.outerBox_bemp{
+.dsm_prev{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px 0px;
+    width: 800px;
+    height: 6000px;
+    max-width: 800px;
+    max-height: 600px;
+    border-radius: 5px;
+}
+.dsr_prev{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px 0px;
+    width: 800px;
+    height: 400px;
+    max-width: 800px;
+    max-height: 400px;
+    border-radius: 5px;
+}
+.dscp_prev{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px 0px;
+    width: 800px;
+    height: 800px;
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 5px;
+}
+.outerBox_qmp{
     max-width: 1000px;
     width: 1000px;
-    max-height: 3600px;
-    height: 3600px;
+    max-height: 4800px;
+    height: 4800px;
     display: block;
     margin: 20px auto;
     /* outline: 1px red solid; */
 }
-.belg_prev{
+.qlgreg_prev{
+    width: 1000px;
+    max-width: 1000px;
+    height: 600px;
+    max-height: 600px;
+    border-radius: 5px;
+    /* outline: red 1px solid; */
+}
+.qm_prev1{
     width: 1000px;
     height: 800px;
     max-width: 1000px;
     max-height: 800px;
     border-radius: 5px;
+    margin: 0px 0px 20px 0px;
+    /* outline: red 1px solid; */
 }
-.bemp_prev1{
-    width: 1000px;
-    height: 800px;
-    max-width: 1000px;
-    max-height: 800px;
-    border-radius: 5px;
-    margin: 0px 0px 20px 20px;
-}
-.bemp_prev2{
+.qd_prev2{
     width: 900px;
     height: 600px;
     max-width: 900px;
     max-height: 600px;
     border-radius: 5px;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 50px;
 }
-.bemp_prev3{
+.qea_prev3{
     width: 900px;
-    height: 500px;
     max-width: 900px;
-    max-height: 500px;
+    height: 400px;
+    max-height: 400px;
     border-radius: 5px;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 40px;
 }
-.bemp_prev4{
+.qerd_prev4{
     width: 900px;
     height: 700px;
     max-width: 900px;
@@ -167,10 +212,17 @@ header{
     color:rgb(218, 195, 146);
     /* border: 2px solid rgb(255, 243, 223);
     border-radius: 5px;     */
+
 }
 
 p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 0px 0px 20px;
     padding: 10px 5px 10px 5px;
+    width: 1100px;
+    height: 80px;
+    /* outline: red 1px solid; */
 }
 
 section{
