@@ -29,15 +29,15 @@ def frontend_proj():
 def backend_proj():
     return render_template("backend_proj.html")
 
-@app.route("/jayneDoe_proj")
+@app.route("/jaynedoe_proj")
 def jayneDoe_proj():
     return render_template("jayneDoe_proj.html")
 
-@app.route("/jayneDoe_original")
+@app.route("/jaynedoe_original")
 def jayneDoe_original():
     return render_template("jayneDoe_original.html")
 
-@app.route("/aboutPython_proj")
+@app.route("/aboutpython_proj")
 def aboutPython_proj():
     return render_template("aboutPython_proj.html")
 
