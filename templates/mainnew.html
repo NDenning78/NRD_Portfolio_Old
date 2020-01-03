@@ -1,8 +1,5 @@
 <!-- Title: NRD Portfolio Main HTML
      Coder: Neil Denning -->
-<!-- git and github are the hardest to learn out of a fullstack of python.. yuck
-algorithms are easy compared to learning git and github on my own..weird. -->
-<!-- R&eacute;sum&eacute;-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +35,6 @@ algorithms are easy compared to learning git and github on my own..weird. -->
 
 </head>
 <body onload=display_ct();>
-
     <main id="container">
         <header>
             <h5 id='ct'></h5>
@@ -166,7 +162,7 @@ algorithms are easy compared to learning git and github on my own..weird. -->
                     <h3>Dojo Tweet Project</h3>  
                     <div class="mini_preview" >
                         <h3>Render</h3>
-                        <a href="/dojo_tweet_main_preview"><img class="img_prev_1"  src="/static/img/project_snippets/dojo_tweets_loginreg.png" alt="dojo_tweet_loginreg"></a>
+                        <a href="/dojo_tweet_main_preview"><img class="dojo_tweet_lgreg"  src="/static/img/project_snippets/dojo_tweets_loginreg.png" alt="dojo_tweet_loginreg"></a>
                     </div>
                     <div class="mini_preview" >
                         <h3>Render</h3>
@@ -177,23 +173,27 @@ algorithms are easy compared to learning git and github on my own..weird. -->
                         <a href="/dojo_tweet_main_preview"><img class="img_prev_3"  src="/static/img/project_snippets/dojo_tweet_python_html.png" alt="dojo_tweet_python_html"></a>
                     </div>                
                 </div>
+
+                <!-- quotes project -->
                 <div class="project_preview"">
-                    <h3>Project Preview</h3>  
+                    <h3>Quotes Project</h3>  
                     <div class="mini_preview" >
                         <h3>Render</h3>
-                        <a href="/quotes"><img class="img_prev_1" src="/static/img/project_snippets/beltExam_loginreg.png" alt=""></a>
+                        <a href="/quotes"><img class="img_prev_1" src="/static/img/project_snippets/quotes_loginreg.png" alt="quotes_loginReg"></a>
                     </div>
                     <div class="mini_preview" >
                         <h3>Render</h3>
-                        <a href="/quotes"><img class="img_prev_2c" src="/static/img/project_snippets/beltExam_main.png" alt=""></a>
+                        <a href="/quotes"><img class="quote_main_prev" src="/static/img/project_snippets/quotes_main.png" alt="quotes_main"></a>
                     </div>
                     <div class="mini_preview" >
                         <h3>ERD</h3>
-                        <a href="/quotes"><img class="img_prev_3" src="/static/img/project_snippets/beltExam_erd.png" alt=""></a>
+                        <a href="/quotes"><img class="img_prev_3" src="/static/img/project_snippets/quotes_erd.png" alt="quotes_erd"></a>
                     </div>                
                 </div>
+
+                <!-- algorithm samples -->
                 <div class="project_preview"">
-                    <h3>Project Preview</h3>  
+                    <h3>Algorithm Samples</h3>  
                     <div class="mini_preview" >
                         <h3>Render</h3>
                         <img src="" alt="">
@@ -207,8 +207,27 @@ algorithms are easy compared to learning git and github on my own..weird. -->
                         <img src="" alt="">
                     </div>                
                 </div>
+
+                <!-- algorithm samples -->
                 <div class="project_preview"">
-                    <h3>Project Preview</h3>  
+                    <h3>Algorithm Samples</h3>  
+                    <div class="mini_preview" >
+                        <h3>Render</h3>
+                        <img src="" alt="">
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Code</h3>
+                        <img src="" alt="">
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>ERD</h3>
+                        <img src="" alt="">
+                    </div>                
+                </div>
+
+                <!-- photoshop samples -->
+                <div class="project_preview"">
+                    <h3>Photoshop Samples</h3>  
                     <div class="mini_preview" >
                         <h3>Render</h3>
                         <img src="" alt="">
@@ -223,11 +242,6 @@ algorithms are easy compared to learning git and github on my own..weird. -->
                     </div>                
                 </div>
             </section>
-            <!-- <aside>
-                <p class="article_link_1">Article Link- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores perferendis velit nam molestias harum at voluptas animi itaque! Distinctio voluptates amet officia suscipit doloribus ipsam iusto quisquam? Reiciendis, delectus? </p>
-                <p class="article_link_1">Article Link- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores perferendis velit nam molestias harum at voluptas animi itaque! Distinctio voluptates amet officia suscipit doloribus ipsam iusto quisquam? Reiciendis, delectus? </p>
-                   
-            </aside> -->
     
         <footer id="img_footer">
             <img class="img_python" src="/static/img/Language_images/HTML.png" alt="HTML_img">
@@ -235,10 +249,11 @@ algorithms are easy compared to learning git and github on my own..weird. -->
             <img class="img_python" src="/static/img/Language_images/JavaScript.png" alt="JavaScript_img">
             <img class="img_python" src="/static/img/Language_images/python.png" alt="Python_img">
             <img class="img_python" src="/static/img/Language_images/github.png" alt="GitHub_img">
-            <img class="img_python" src="/static/img/Language_images/mysql.png" alt="MySQL_img">
-          
+            <img class="img_python" src="/static/img/Language_images/mysql.png" alt="MySQL_img">   
         </footer>
     </main>  
+
+    <!-- javascript date time function -->
     <script type="text/javascript"> 
         function display_c(){
         var refresh=1000; // Refresh rate in milli seconds
@@ -250,6 +265,7 @@ algorithms are easy compared to learning git and github on my own..weird. -->
         document.getElementById('ct').innerHTML = x;
         display_c();
          }
-    </script>      
+    </script>   
+
 </body>
 </html>
