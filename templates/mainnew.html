@@ -1,0 +1,342 @@
+<!-- Title: NRD Portfolio Main HTML
+     Coder: Neil Denning -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="description" content="My Portfoilio IdeaOne (nrd)"> -->
+    <meta name="description" content="Neil Denning's Portfolio">
+    <link rel="stylesheet" href="/static/css/mainNew_stylesheet.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='nrd_faviconN-3.ico') }}">    
+
+
+    <title>Neil Denning's Portfolio</title>
+
+    <!-- There should always be 2 script tags..1 to link. 2 to state JS and to get document ready.-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='static/js/my_portfolio.js')}}"></script> -->
+    <!-- This is the script tag with jQuery link!!-->
+    <!-- // The JS and jQuery seem to live inside the document function.-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            // alert("Welcome To Neil Denning's Portfolio!!")
+            
+            // $('nav').click(function(){alert("You have clicked a button!")});
+            
+            // $('a').click(function(){alert('you are now leaving this page')});
+
+            
+            // Effects methods toggle the visiblility property of the item
+        });        
+    </script>
+    
+
+</head>
+<body onload="startTime()">
+    <main id="container">
+        <header>
+            <!-- <div id="date" ></div> -->
+            <div>
+                <!-- <h5 id="date"></h5>
+                <h5 id="time"></h5>            -->
+            </div>
+            <h1 class="h1">Neil Denning</h1>
+            <h2 class="h2">Full Stack Python Developer</h2> 
+
+            <!-- this is a profile pic for the next update -->
+            <!-- <div class="name_titleBox">
+            <img class="pic_of_me1" src="/static/img/Photos_Of_Me(nrd)/me_profile_1.png" alt="me">
+            </div> -->
+            
+        </header>
+        <nav>
+            <ul>            
+                <li class="dropdown">
+                    <button class="dropbtn">HTML5 | CSS3</button>
+                    <div class="dropdown_content">
+                        <a href="/jaynedoe_proj">Jayne Doe R&eacute;sum&eacute;</a>
+                        <a href="/aboutpython_proj">About Python</a>                       
+                        <a href="/internet_proj">Internet</a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">Algorithms</button>
+                    <div class="dropdown_content">
+                        <a href="/algorithms_prev">JavaScript</a>
+                        <a href="/algorithms_prev">Python</a>                       
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">Python Projects</button>
+                    <div class="dropdown_content">
+                        <a href="/">Coming Soon!!</a>
+                        <a href="https://github.com/NDenning78/Copies_of_Code_for_Show">Projects on GitHub!!</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Databases </button>  
+                    <div class="dropdown_content">
+                        <a href="/backend_proj">MySQL Workbench</a>
+                        <a href="/backend_proj">SQLite</a>                       
+                    </div>       
+                </li> 
+            </ul>
+        </nav>
+        
+            <div class="about_me">
+                <div  class="short_bio" >
+                    <h3>About Me</h3>
+                    <p class="bio_desc">I have recently graduated a coding bootcamp named "Coding Dojo" and have a passion for programming.
+                        I'm a highly energetic self starter with a positive attitude. With 15+ years as a recording engineer in Los Angeles 
+                        I'm making a career change to technology focusing on Python Full Stack, which includes HTML5, CSS3, JavaScript, Flask, MySQL, and Python!
+                        Here are a few of my recent projects in static form. Dynamic projects coming soon!</p>
+                    <br/>
+                    <div class="skill_box">
+                            <h3>Transferable Skills</h3>
+                            <ul>
+                                <li>Team oriented</li>
+                                <li>High aptitude for learning</li>
+                                <li>Ability to problem solve and recognize patterns</li>
+                                <li>Strong leadership</li>
+                                <li>Great communication and customer service</li>
+                                <li>Highly analytical</li>
+
+                            </ul>
+                        </div>        
+                        <div class="skill_box">
+                            <h3>Computer Skills</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Flask</li>
+                                <li>MySQL | SQLite</li>
+                                <li>Python</li>
+                                <li>Git | GitHub</li>
+                            </ul>
+                        </div>        
+                        <div class="skill_box">
+                            <h3>Computer Skills</h3>
+                            <ul>
+                                <li>Linux Terminal Basics</li>
+                                <li>MS-Office | Excel</li>
+                                <li>Adobe Ps</li>
+                                <li>OOP</li>
+                                <li>ORM</li>
+                                <li>Modularization</li>
+                                <li>AWS</li>
+                            </ul>
+                        </div>
+                        <div id="contact_logosBox">
+                                <a class="contact_links" href="https://www.linkedin.com/in/neil-denning-91aba8194/"><img class="contact_logos" src="/static/img/Portfolio_JDoe/linkedincrop.png" alt="linkedin_img">My LinkedIN</a>
+                                <a class="contact_links" href="https://github.com/NDenning78"><img class="contact_logos" src="/static/img/Portfolio_JDoe/github.png" alt="github_img">My GitHub</a>
+
+
+                        </div>
+                </div>            
+            </div>
+
+            <section>
+                <!-- styling copies -->
+                <div class="project_preview"">
+                    <h3>Styling Copies</h3>  
+                    <p class="project_desc1">These are HTML and CSS stylings re-created from a screenshot image of the original site.</p>
+                    <div class="mini_preview" >
+                        <h3>Styling Copy</h3>
+                        <a href="/internet_proj"><img class="img_prev_1d" src="/static/img/project_snippets/internet_nrd.png" alt="internet_image"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Styling Copy</h3>
+                        <a href="/jaynedoe_proj"><img  class="img_prev_1d"  src="/static/img/project_snippets/jayneDoe_nrd.png" alt="jayneDoe_image"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Styling Copy</h3>
+                        <a href="/aboutpython_proj"><img class="img_prev_1d"   src="/static/img/project_snippets/aboutPython_original.png" alt="about_python_image"></a>
+                    </div>  
+                    <!-- below is for the next version which will have dynamic qualities.
+                    Once these projects have their databases up and running on the same AWS instance
+                    I will activate and style these other elements to have the technology logos displayed. -->
+                    <!-- <div class="project_LogoBox">
+                        <p class="techlabel_mini_prev">Technologies</p> 
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/HTML.png" alt="HTML_img">
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/CSS.png" alt="CSS_img">
+                    </div> -->
+                </div>
+
+                <!-- dojo survey snippets -->
+                <div class="project_preview"">
+                    <h3>Dojo Survey Project</h3>  
+                    <p class="project_desc1">This is a "Dojo Survey" for students.</p>
+                    <div class="mini_preview" >
+                        <h3>Render</h3>
+                        <a href="/dojo_survey_main_preview"><img class="img_prev_1" src="/static/img/project_snippets/dojo_survey_index.png" alt="survey_index"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Render</h3>
+                        <a href="/dojo_survey_main_preview"><img class="img_prev_2"  src="/static/img/project_snippets/dojo_survey_results.png" alt="survey-results"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Python Code</h3>
+                        <a href="/dojo_survey_main_preview"><img class="img_prev_3"  src="/static/img/project_snippets/dojo_survey_pythonCode.png" alt="survey_python_code"></a>
+                    </div>  
+                    <!-- <p class="project_techLogos1">Technologies
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/HTML.png" alt="HTML_img">
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/CSS.png" alt="CSS_img">
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/JavaScript.png" alt="JavaScript_img">
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/python.png" alt="Python_img">
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/github.png" alt="GitHub_img">
+                        <img class="logo_img_mini_prev" src="/static/img/Language_images/mysql.png" alt="MySQL_img"> 
+                    </p>               -->
+                </div>
+
+                <!-- dojo tweets snippets -->
+                <div class="project_preview"">
+                    <h3>Dojo Tweet Project</h3>  
+                    <p class="project_desc1">This is a "Dojo Tweet" project where users login/register and write tweets.</p>
+                    <div class="mini_preview" >
+                        <h3>Render</h3>
+                        <a href="/dojo_tweet_main_preview"><img class="dojo_tweet_lgreg"  src="/static/img/project_snippets/dojo_tweets_loginreg.png" alt="dojo_tweet_loginreg"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Render</h3>
+                        <a href="/dojo_tweet_main_preview"><img class="img_prev_2b"  src="/static/img/project_snippets/dojo_tweets_main.png" alt="dojo_tweet_main"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Python Code</h3>
+                        <a href="/dojo_tweet_main_preview"><img class="img_prev_3"  src="/static/img/project_snippets/dojo_tweet_python_html.png" alt="dojo_tweet_python_html"></a>
+                    </div>                
+                </div>
+
+                <!-- quotes project -->
+                <div class="project_preview"">
+                    <h3>Quotes Project</h3>  
+                    <p class="project_desc1">This is a "Quotes" project where users login/register to post quotes.</p>
+                    <div class="mini_preview" >
+                        <h3>Render</h3>
+                        <a href="/quotes"><img class="img_prev_1" src="/static/img/project_snippets/quotes_loginreg.png" alt="quotes_loginReg"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Render</h3>
+                        <a href="/quotes"><img class="quote_main_prev" src="/static/img/project_snippets/quotes_main.png" alt="quotes_main"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>ERD</h3>
+                        <a href="/quotes"><img class="img_prev_3" src="/static/img/project_snippets/quotes_erd.png" alt="quotes_erd"></a>
+                    </div>                
+                </div>
+
+                <!-- algorithm samples -->
+                <div class="project_preview"">
+                    <h3>JavaScript Algorithms</h3>
+                    <div class="mini_preview" >
+                        <h3>Max|Min|Avg</h3>
+                        <p class="project_desc2a">This is a Max|Min|Avg function in JavaScript.</p>  
+                        <a href="/algorithms_prev"><img class="algo_prev1" src="/static/img/project_snippets/js_findMaxMinAvg.png" alt="max_min_avg_js"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>To The Moon</h3>
+                        <p class="project_desc2a">This function doubles the value for each iteration. 42 paper folds "to the moon".</p> 
+                        <a href="/algorithms_prev"><img class="algo_prev2" src="/static/img/project_snippets/JS_toTheMoon.png" alt="to_the_moon_js"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Selection Sort</h3>
+                        <p class="project_desc2a">This "selection sort" starts from the end of an array and works to the front.</p>  
+                        <a href="/algorithms_prev"><img class="algo_prev3" src="/static/img/project_snippets/js_selectionSortNRD.png" alt="nrd_selection_sort"></a>
+                    </div>                
+                </div>
+
+                <!-- algorithm samples -->
+                <div class="project_preview"">
+                    <h3>Python Algorithms</h3>  
+                    <div class="mini_preview" >
+                        <h3>Max|Min|Avg</h3>
+                        <p class="project_desc2a">This is a Max|Min|Avg function in Python.</p>  
+                        <a href="/algorithms_prev"><img class="algo_prev4" src="/static/img/project_snippets/python_MaxMinAvg.png" alt="max_min_avg_python"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>To The Moon</h3>
+                        <p class="project_desc2a">This function doubles the value for each iteration. 42 paper folds "to the moon".</p>  
+                        <a href="/algorithms_prev"><img class="algo_prev5" src="/static/img/project_snippets/python_toTheMoon.png" alt="to_the_moon_python"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Fibonacci</h3>
+                        <p class="project_desc2a">This is a basic fibonacci function.</p>  
+                        <a href="/algorithms_prev"><img class="algo_prev6" src="/static/img/project_snippets/python_FibonacciBasic.png" alt="fibonacci_python"></a>
+                    </div>                
+                </div>
+
+                <!-- photoshop samples -->
+                <div class="project_preview"">
+                    <h3>Photoshop Samples</h3>  
+                    <div class="mini_preview" >
+                        <h3>NRD Studios</h3>
+                        <a href="/ps_prev"><img class="ps_prev1" src="/static/img/ps_snippets/NRDredswirl.jpg" alt="nrdstudios"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>Old Faithful</h3>
+                        <a href="/ps_prev"><img class="ps_prev2" src="/static/img/ps_snippets/OldFaithful5fx.jpeg" alt="oldfaithfulFX"></a>
+                    </div>
+                    <div class="mini_preview" >
+                        <h3>NRD Studios</h3>
+                        <a href="/ps_prev"><img class="ps_prev3" src="/static/img/ps_snippets/NRDLOGO_holo1_2.png" alt="nrdstudios"></a>
+                    </div>                
+                </div>
+            </section>
+            <a class="returnHome" href="/">Back to Top</a>
+        <footer id="img_footer">
+            <img class="logo_img_footer" src="/static/img/Language_images/HTML.png" alt="HTML_img">
+            <img class="logo_img_footer" src="/static/img/Language_images/CSS.png" alt="CSS_img">
+            <img class="logo_img_footer" src="/static/img/Language_images/JavaScript.png" alt="JavaScript_img">
+            <img class="logo_img_footer" src="/static/img/Language_images/python.png" alt="Python_img">
+            <img class="logo_img_footer" src="/static/img/Language_images/github.png" alt="GitHub_img">
+            <img class="logo_img_footer" src="/static/img/Language_images/mysql.png" alt="MySQL_img">  
+            <h6>Powered By <span class="red">ReddGhost </span></h6> 
+        </footer>
+    </main>  
+
+<!-- datetime display -->
+    <!-- <script>
+    function displayTimeandDate(){
+        var d = new Date();
+        var n = d.toDateString();
+
+        document.getElementById("date").innerHTML = n;
+    }
+    </script>     -->
+
+
+    <script>
+        function startTime() {
+            var today = new Date();
+
+            var dd = today.getDate();
+            var mm = today.getMonth()+1;
+            var yyyy = today.getFullYear();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            var newformat = h >= 12 ? 'PM' : 'AM'; 
+            h = h % 12; 
+            h = h ? h : 12;  
+            m = checkTime(m);
+            s = checkTime(s);
+
+            document.getElementById("date").innerHTML =
+            String(mm) + "-" + String(dd) + "-" + String(yyyy);
+            document.getElementById("time").innerHTML =
+            h + ":" + m + " " + newformat;
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(n) {
+          if (n < 10) {n = "0" + n};
+          return n;
+        }
+    </script>
+</body>
+</html>

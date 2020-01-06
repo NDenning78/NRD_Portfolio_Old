@@ -1,0 +1,290 @@
+
+/* Neil Denning */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* outline: 1px red solid; */
+}
+body{
+    background-color: rgb(0,0,0);
+}
+.outerBox{
+    min-height: 900px;
+    width: 960px;
+    display: block;
+    margin: 20px auto;
+    /* outline: 1px red solid; */
+}
+
+.returnHome{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(140, 148, 208);
+    margin: 40px 0px 0px 100px;
+}
+#wrapper{
+    min-height: 480px;
+    width: 994px;
+    background-color: rgb(26, 26, 26);
+    margin: 0px auto;
+    border-left: 5px rgb(67, 67, 67) solid;
+    border-right: 5px rgb(67, 67, 67) solid;
+}
+
+header{
+    min-height: 115px;
+    width: 994px;
+}
+
+.img_modernize_logo{
+    display: inline-block;
+    max-height: 80px;
+    max-width: 230px;
+    margin: 25px 0px 0px 20px;
+}
+
+.call_us{
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0px 0px 570px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(196, 196, 196);
+}
+
+nav{
+    min-height:42px;
+    width: 994px;   
+    display: block;
+    background-color: rgb(67, 67, 67);
+    background-image: linear-gradient(rgb(67, 67, 67),rgb(100, 100, 100),rgb(67, 67, 67));
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px 0px 0px 5px;
+}
+
+li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin: 8px 6px 5px 10px;
+    padding-top: 5px;
+    /* outline: 1px red solid; */
+}
+
+li::before{
+    content: "\007C";
+    color: rgb(170, 170, 170);
+    font-size: 20px;
+    margin: 0px 15px 0px 0px;
+}
+
+li::after{
+    content: "\00BB";
+    color: rgb(192, 192, 192);
+    display: inline-block;
+    width: 4px;
+    margin: 4px;
+}
+
+a{
+    color: rgb(75, 75, 75);
+    text-decoration: underline;
+    
+}
+
+.gray{
+    color: rgb(192, 192, 192);
+}
+
+.small{
+    font-size: 8px;
+}
+
+#img_main_pic{
+    max-height: 360px;
+    max-width: 994px;
+    height: 360px;
+    width: 994px;
+    border-bottom: 4px gray solid;
+}
+
+.img_content_icon{
+    display: inline-block;
+    vertical-align: top;
+    max-height: 40px;
+    max-width: 48px;
+    height: 40px;
+    width: 48px;
+    margin: 25px 0px 0px 20px;
+}
+
+.top_4_p{
+    display: inline-block;
+    min-height: 135px;
+    width: 160px;
+    padding-bottom: 20px;  
+}
+
+h3{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(235, 133, 54);
+    margin: 30px 0px 0px 10px;
+}
+
+.p1{
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0px 0px 10px;
+    line-height: 18px;
+    /* outline: 1px red solid; */
+}
+
+.mid_p_and_button{
+    min-height: 100px;
+    width: 994px;
+    background-color: black;
+    /* background: repeating-linear-gradient(-45deg, rgb(0, 0, 0) 2px,rgb(61, 61, 61) 20px, rgb(27, 27, 27) 22px); */
+    /* This gradient is really challenging. I tried a bunch of things and couldn't get the result I wanted */
+    /* outline: 1px red solid; */
+}
+
+.mid_p{
+    display: inline-block;
+    min-height: 100px;
+    width: 680px;
+    margin: 40px 0px 0px 25px;
+}
+
+h2{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 10px;
+}
+
+.p2{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0px 0px 10px;
+    line-height: 18px;
+    /* outline: 1px red solid; */
+}
+
+.buy_now_button{
+    min-height: 25px;
+    width: 120px;
+    background-color: rgb(235, 133, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);  
+    padding: 10px;
+    margin: 20px 0px 0px 100px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.portfolio_box{
+    min-height: 300px;
+    width: 994px;
+
+}
+
+h4{
+    /* outline: 1px red solid; */
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255); 
+    margin: 10px 200px 20px 30px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+
+}
+
+.view_all_projects{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(235, 133, 54);
+    margin: 20px 0px 0px 540px;
+    padding-top: 15px;
+
+}
+
+.portfolio_content_boxes{
+    /* outline: 1px red solid; */
+    display: inline-block;
+    min-height: 250px;
+    width: 220px;
+    margin: 0px 0px 10px 20px;
+
+}
+
+.img_portfoilio1-4{
+    display: inline-block;
+    max-height: 136px;
+    max-width: 211px;
+    height: 136px;
+    width: 211px;
+    border:4px rgb(59, 59, 59) solid;
+}
+
+h6{
+    /* outline: 1px red solid; */
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(235, 133, 54);
+    margin: 5px 0px 5px 3px;
+    padding-top: 5px;
+}
+
+.p3{
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0px 0px 0px;
+    line-height: 18px;
+    /* outline: 1px red solid; */
+}
+
+.back_to_top{
+    display: inline-block;
+    margin: 10px 0px 5px 920px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(150, 150, 150);
+    padding-top: 10px;
+}
